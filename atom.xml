@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://MeaquaOWO.github.io</id>
     <title>Gridea</title>
-    <updated>2020-02-27T12:54:53.249Z</updated>
+    <updated>2020-02-27T13:01:36.672Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://MeaquaOWO.github.io"/>
     <link rel="self" href="https://MeaquaOWO.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://MeaquaOWO.github.io/images/avatar.png</logo>
     <icon>https://MeaquaOWO.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[蒟蒻的小屋正式搭建啦]]></title>
+        <id>https://MeaquaOWO.github.io/post/ju-ruo-de-xiao-wu-zheng-shi-da-jian-la/</id>
+        <link href="https://MeaquaOWO.github.io/post/ju-ruo-de-xiao-wu-zheng-shi-da-jian-la/">
+        </link>
+        <updated>2020-02-27T12:56:04.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="2020227">2020/2/27</h1>
+<p>这是第一篇文章，emm不知道该写点什么，就留着当作纪念吧，也许等我从OIer变成一个ACMer的时候，未来的文章能勾起我的回忆。<br>
+那么，扬帆，启航！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://MeaquaOWO.github.io/post/hello-gridea/</id>
