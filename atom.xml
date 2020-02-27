@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://MeaquaOWO.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-02-27T13:03:41.472Z</updated>
+    <title>XHY的小屋</title>
+    <updated>2020-02-27T13:05:09.954Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://MeaquaOWO.github.io"/>
     <link rel="self" href="https://MeaquaOWO.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>虽千万人，吾往矣</subtitle>
     <logo>https://MeaquaOWO.github.io/images/avatar.png</logo>
     <icon>https://MeaquaOWO.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, XHY的小屋</rights>
     <entry>
         <title type="html"><![CDATA[蒟蒻的小屋正式搭建啦]]></title>
         <id>https://MeaquaOWO.github.io/post/ju-ruo-de-xiao-wu-zheng-shi-da-jian-la/</id>
