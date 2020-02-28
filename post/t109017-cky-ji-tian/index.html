@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>蒟蒻的小屋正式搭建啦 | XHY的小屋</title>
+<title>T109017  CKY祭天 | XHY的小屋</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -24,11 +24,13 @@
 
 
 
-    <meta name="description" content="2020/2/27
-这是第一篇文章，emm不知道该写点什么，就留着当作纪念吧，也许等我从OIer变成一个ACMer的时候，未来的文章能勾起我的回忆。
-那么，扬帆，启航！
-" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="题面：
+题目背景
+2021年，天灾人祸，CKY决定牺牲自己祭祀上天，以求平安。
+题目描述
+祭祀需要 v 块肉，CKY身上有 n 块肉，切下第 i 块，CKY的血量会减少a[i]。
+CKY原有的血量为 p ，当CKY的血量小于 m 时，他就会..." />
+    <meta name="keywords" content="题解" />
   </head>
   <body>
     <div id="app" class="main">
@@ -99,22 +101,81 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">蒟蒻的小屋正式搭建啦</h2>
-            <div class="post-date">2020-02-27</div>
+            <h2 class="post-title">T109017  CKY祭天</h2>
+            <div class="post-date">2020-02-28</div>
             
             <div class="post-content" v-pre>
-              <h1 id="2020227">2020/2/27</h1>
-<p>这是第一篇文章，emm不知道该写点什么，就留着当作纪念吧，也许等我从OIer变成一个ACMer的时候，未来的文章能勾起我的回忆。<br>
-那么，扬帆，启航！</p>
+              <h1 id="题面">题面：</h1>
+<h2 id="题目背景">题目背景</h2>
+<p>2021年，天灾人祸，CKY决定牺牲自己祭祀上天，以求平安。</p>
+<h2 id="题目描述">题目描述</h2>
+<p>祭祀需要 v 块肉，CKY身上有 n 块肉，切下第 i 块，CKY的血量会减少a[i]。<br>
+CKY原有的血量为 p ，当CKY的血量小于 m 时，他就会死去。<br>
+CKY想知道，他能否活着完成祭祀。</p>
+<h2 id="输入格式">输入格式</h2>
+<p>第一行四个整数 n , v , m , p，含义如题目所述。<br>
+第二行 n 个整数 a[i]，含义如题目所述。</p>
+<h2 id="输出格式">输出格式</h2>
+<p>输出一行一个字符串，如果CKY能活着完成祭祀，输出&quot;YES&quot;，否则输出&quot;NO&quot;。（不含引号）</p>
+<h2 id="输入输出样例">输入输出样例</h2>
+<h3 id="输入-1">输入 #1</h3>
+<p>3 2 1 4<br>
+1 2 3</p>
+<h3 id="输出-1">输出 #1</h3>
+<p>YES</p>
+<h2 id="说明提示">说明/提示</h2>
+<p>1&lt;=v&lt;=n&lt;=1000,<br>
+1&lt;=m&lt;=p&lt;=10000,<br>
+1&lt;=a[i]&lt;=1000</p>
+<hr>
+<hr>
+<h1 id="题解">题解：</h1>
+<p><s>不得不说，调戏cky真的很有意思</s><br>
+读入后取最小的v个，求和判断大小，EZ<br>
+代码如下：</p>
+<pre><code class="language-pascal">var n,v,m,p,i:longint;
+    a:array[0..1000001] of longint;
+procedure sort(l,r: longint);
+var i,j,x,y: longint;
+begin
+  i:=l;j:=r;x:=a[(l+r) div 2];
+  repeat
+    while a[i]&lt;x do inc(i);
+    while x&lt;a[j] do dec(j);
+    if not(i&gt;j) then
+    begin
+      y:=a[i];a[i]:=a[j];a[j]:=y;
+      inc(i);j:=j-1;
+    end;
+  until i&gt;j;
+  if l&lt;j then sort(l,j);
+  if i&lt;r then sort(i,r);
+end;
+begin
+  readln(n,v,m,p);
+  for i:=1 to n do read(a[i]);
+  sort(1,n);
+  for i:=1 to v do p:=p-a[i];
+  if p&lt;m then write('NO') else write('YES');
+end.
+</code></pre>
 
             </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://MeaquaOWO.github.io/tag/jv5i0kEgC/" class="tag">
+                    题解
+                  </a>
+                
+              </div>
             
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://MeaquaOWO.github.io/post/hello-gridea/">
+                <a href="https://MeaquaOWO.github.io/post/ju-ruo-de-xiao-wu-zheng-shi-da-jian-la/">
                   <h3 class="post-title">
-                    Hello Gridea
+                    蒟蒻的小屋正式搭建啦
                   </h3>
                 </a>
               </div>
