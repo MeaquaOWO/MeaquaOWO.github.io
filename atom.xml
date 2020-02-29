@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://MeaquaOWO.github.io</id>
     <title>XHY的小屋</title>
-    <updated>2020-02-29T10:21:41.225Z</updated>
+    <updated>2020-02-29T13:14:36.386Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://MeaquaOWO.github.io"/>
     <link rel="self" href="https://MeaquaOWO.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://MeaquaOWO.github.io/images/avatar.png</logo>
     <icon>https://MeaquaOWO.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, XHY的小屋</rights>
+    <entry>
+        <title type="html"><![CDATA[关于随笔]]></title>
+        <id>https://MeaquaOWO.github.io/post/guan-yu-sui-bi/</id>
+        <link href="https://MeaquaOWO.github.io/post/guan-yu-sui-bi/">
+        </link>
+        <updated>2020-02-29T13:11:45.000Z</updated>
+        <content type="html"><![CDATA[<p>准确地讲，是搬运自己个人公众号上的文章的说，文笔很稚嫩，很粗糙，让各位看官见笑了~<br>
+<s>虽然个人感觉没人会看XD</s><br>
+嗯，就先这样吧owo</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[T109017  CKY祭天]]></title>
         <id>https://MeaquaOWO.github.io/post/t109017-cky-ji-tian/</id>
@@ -81,6 +92,29 @@ end.
         <content type="html"><![CDATA[<h1 id="2020227">2020/2/27</h1>
 <p>这是第一篇文章，emm不知道该写点什么，就留着当作纪念吧，也许等我从OIer变成一个ACMer的时候，未来的文章能勾起我的回忆。<br>
 那么，扬帆，启航！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://MeaquaOWO.github.io/post/about/</id>
+        <link href="https://MeaquaOWO.github.io/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>这是某蒟蒻第一个个人博客的说~</p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>当然是不能AKIOI的XHY啦</p>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<p>EA育碧R星<s>暴雪</s>波兰蠢驴P社</p>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<p>QQ：189289022<br>
+微信：xhy-0910<br>
+邮箱：189289022@qq.com<br>
+GitHub：MeaquaOWO<br>
+洛<s>咕</s>谷：Devil_may_cry</p>
 ]]></content>
     </entry>
     <entry>

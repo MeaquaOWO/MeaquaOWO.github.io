@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | XHY的小屋</title>
+<title>关于随笔 | XHY的小屋</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,23 @@
 <link rel="stylesheet" href="https://MeaquaOWO.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="Legends Never Die">
+    <meta name="description" content="准确地讲，是搬运自己个人公众号上的文章的说，文笔很稚嫩，很粗糙，让各位看官见笑了~
+虽然个人感觉没人会看XD
+嗯，就先这样吧owo
+" />
+    <meta name="keywords" content="随笔" />
   </head>
   <body>
     <div id="app" class="main">
@@ -88,96 +98,45 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">关于随笔</h2>
+            <div class="post-date">2020-02-29</div>
+            
+            <div class="post-content" v-pre>
+              <p>准确地讲，是搬运自己个人公众号上的文章的说，文笔很稚嫩，很粗糙，让各位看官见笑了~<br>
+<s>虽然个人感觉没人会看XD</s><br>
+嗯，就先这样吧owo</p>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2020</h2>
+              <div class="tag-container">
+                
+                  <a href="https://MeaquaOWO.github.io/tag/o_ow2nf-I/" class="tag">
+                    随笔
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://MeaquaOWO.github.io/post/t109017-cky-ji-tian/">
+                  <h3 class="post-title">
+                    T109017  CKY祭天
+                  </h3>
+                </a>
+              </div>
+            
+
+            
               
-                
-                  <article class="post">
-                    <a href="https://MeaquaOWO.github.io/post/guan-yu-sui-bi/">
-                      <h2 class="post-title">
-                        关于随笔
-                      </h2>
-                    </a>
-                  </article>
-                
+                <div id="gitalk-container" data-aos="fade-in"></div>
               
-                
-                  <article class="post">
-                    <a href="https://MeaquaOWO.github.io/post/t109017-cky-ji-tian/">
-                      <h2 class="post-title">
-                        T109017  CKY祭天
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="https://MeaquaOWO.github.io/post/ju-ruo-de-xiao-wu-zheng-shi-da-jian-la/">
-                      <h2 class="post-title">
-                        蒟蒻的小屋正式搭建啦
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-              
-                
+
               
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2019</h2>
-              
-                
-              
-                
-              
-                
-              
-                
-                  <article class="post">
-                    <a href="https://MeaquaOWO.github.io/post/about/">
-                      <h2 class="post-title">
-                        关于
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-              
-            
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2018</h2>
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-                  <article class="post">
-                    <a href="https://MeaquaOWO.github.io/post/hello-gridea/">
-                      <h2 class="post-title">
-                        Hello Gridea
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-            
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
@@ -198,6 +157,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'e2fbc13ee0c2ecaea270',
+        clientSecret: '7986c0a2456517f87c9f918d88c22032c67c0c63',
+        repo: 'MeaquaOWO.github.io',
+        owner: 'MeaquaOWO',
+        admin: ['MeaquaOWO'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
